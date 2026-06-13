@@ -1,0 +1,24 @@
+[0m18:14:07.356146 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD87CA6F90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD87AA7910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD87CA4F10>]}
+
+
+============================== 18:14:07.359149 | 0b348c41-b22a-4c71-b8cc-fca70cc22c60 ==============================
+[0m18:14:07.359149 [info ] [MainThread]: Running with dbt=1.8.3
+[0m18:14:07.360153 [debug] [MainThread]: running dbt with arguments {'fail_fast': 'False', 'indirect_selection': 'eager', 'quiet': 'False', 'version_check': 'True', 'warn_error': 'None', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_cache_events': 'False', 'log_format': 'default', 'use_experimental_parser': 'False', 'printer_width': '80', 'write_json': 'True', 'profiles_dir': 'dbt', 'static_parser': 'True', 'use_colors': 'True', 'log_path': 'dbt\\logs', 'no_print': 'None', 'invocation_command': 'dbt run --project-dir dbt --profiles-dir dbt', 'target_path': 'None', 'debug': 'False', 'cache_selected_only': 'False'}
+[0m18:14:07.368148 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'SNOWFLAKE_ACCOUNT'
+[0m18:14:07.371148 [debug] [MainThread]: Command `dbt run` failed at 18:14:07.370151 after 0.39 seconds
+[0m18:14:07.371148 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD87CA5F90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD86C9BD10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD87C9BFD0>]}
+[0m18:14:07.372144 [debug] [MainThread]: Flushing usage events
+[0m18:14:20.674896 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C806E6BD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C806E4150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C806E5190>]}
+
+
+============================== 18:14:20.678902 | 473d12be-1eda-494f-a113-bd4f7068726b ==============================
+[0m18:14:20.678902 [info ] [MainThread]: Running with dbt=1.8.3
+[0m18:14:20.679904 [debug] [MainThread]: running dbt with arguments {'target_path': 'None', 'profiles_dir': 'dbt', 'invocation_command': 'dbt test --project-dir dbt --profiles-dir dbt', 'use_experimental_parser': 'False', 'empty': 'None', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'cache_selected_only': 'False', 'partial_parse': 'True', 'log_format': 'default', 'printer_width': '80', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'warn_error': 'None', 'quiet': 'False', 'introspect': 'True', 'version_check': 'True', 'write_json': 'True', 'static_parser': 'True', 'log_path': 'dbt\\logs', 'no_print': 'None', 'fail_fast': 'False', 'debug': 'False'}
+[0m18:14:20.686907 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'SNOWFLAKE_ACCOUNT'
+[0m18:14:20.688906 [debug] [MainThread]: Command `dbt test` failed at 18:14:20.688906 after 0.17 seconds
+[0m18:14:20.688906 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C806E6AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C806E5E90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C806D8610>]}
+[0m18:14:20.689906 [debug] [MainThread]: Flushing usage events

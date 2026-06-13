@@ -1,0 +1,31 @@
+version: 2
+
+sources:
+  - name: raw
+    database: "{{ env_var('SNOWFLAKE_DATABASE', 'PIPELINEIQ_DB') }}"
+    schema: RAW
+    tables:
+      - name: ORDERS
+        description: "Raw TPC-H orders table"
+        columns:
+          - name: O_ORDERKEY
+            tests: [not_null, unique]
+          - name: O_CUSTKEY
+            tests: [not_null]
+          - name: O_TOTALPRICE
+            tests: [not_null]
+      - name: LINEITEM
+        description: "Raw TPC-H line items"
+        columns:
+          - name: L_ORDERKEY
+            tests: [not_null]
+      - name: CUSTOMER
+        description: "Raw TPC-H customers"
+        columns:
+          - name: C_CUSTKEY
+            tests: [not_null, unique]
+      - name: SUPPLIER
+      - name: PART
+      - name: PARTSUPP
+      - name: NATION
+      - name: REGION
