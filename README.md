@@ -4,7 +4,6 @@
 
 > Built as a portfolio project demonstrating AI engineering + data engineering — end to end.
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app)
 
 ---
 
@@ -96,4 +95,4 @@ Every agent run is traced in Langfuse: tool calls, token usage, latency, and acc
 
 ---
 
-*Built by [Your Name] — [LinkedIn](https://linkedin.com) · [Demo](https://your-demo-url.railway.app)*
+*Built by Sanjay Chimakurthy(https://www.linkedin.com/in/sanjay-chimakurthy-81523a2a1/) Demo Video: https://www.loom.com/share/4a1d1128278d43f4a2f787ee1b31fecf
