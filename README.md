@@ -95,4 +95,4 @@ Every agent run is traced in Langfuse: tool calls, token usage, latency, and acc
 
 ---
 
-*Built by Sanjay Chimakurthy(https://www.linkedin.com/in/sanjay-chimakurthy-81523a2a1/) Demo Video: https://www.loom.com/share/4a1d1128278d43f4a2f787ee1b31fecf
+*Built by Sanjay Chimakurthy Demo Video: https://www.loom.com/share/4a1d1128278d43f4a2f787ee1b31fecf
